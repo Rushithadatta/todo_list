@@ -31,26 +31,7 @@ Layer	Technology
 Frontend	HTML, CSS
 Backend	Node.js, Express.js
 Database	PostgreSQL
-Authentication	Express-session / JWT (based on your implementation)
 Version Control	Git & GitHub
-Deployment	(Optional: Add if deployed e.g., Render / Railway / Vercel / Heroku)
-⚙️ Project Architecture
-task-manager/
-│
-├── server.js                # Entry point for Express server
-├── package.json             # Dependencies and scripts
-├── config/
-│   └── db.js                # PostgreSQL connection setup
-├── routes/
-│   └── tasks.js             # All CRUD API endpoints
-├── controllers/
-│   └── taskController.js    # Business logic for tasks
-├── models/
-│   └── taskModel.js         # SQL queries / ORM logic
-├── public/
-│   ├── index.html           # Frontend UI
-│   └── styles.css           # Styling for the app
-└── README.md
 
 🧠 API Endpoints
 Method	Endpoint	Description
